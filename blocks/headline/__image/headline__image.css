@@ -1,0 +1,7 @@
+.headline_image {
+  width: 1440px;
+  height: 464px;
+  object-fit: cover;
+  position: relative;
+  z-index: 0;
+}

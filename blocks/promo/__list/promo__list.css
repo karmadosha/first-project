@@ -1,0 +1,16 @@
+.promo__list {
+  background-color: white;
+  width: 650px;
+  height: 650px;
+  border-radius: 50%;
+  z-index: 1;
+  position: absolute;
+  top: -90px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  box-sizing: border-box;  
+}

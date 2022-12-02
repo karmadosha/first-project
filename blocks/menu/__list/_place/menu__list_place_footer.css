@@ -1,0 +1,10 @@
+.menu__list_place_footer {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;  
+  padding-bottom: 30px;
+  border-bottom: 1px solid lightgray;
+}

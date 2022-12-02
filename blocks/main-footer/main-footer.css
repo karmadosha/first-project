@@ -1,0 +1,11 @@
+.main-footer {
+  min-height: 300px;
+  background-color: rgb(102, 103, 105);
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}

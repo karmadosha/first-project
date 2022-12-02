@@ -1,0 +1,8 @@
+.heading {
+  font-size: 18px;
+  font-weight: 200px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+}

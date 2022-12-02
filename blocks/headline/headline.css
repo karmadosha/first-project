@@ -1,0 +1,10 @@
+.headline {
+  width: 1440px;
+  height: 464px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 50px;
+
+}

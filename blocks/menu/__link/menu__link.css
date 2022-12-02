@@ -1,0 +1,10 @@
+.menu__link {
+  text-decoration: none;
+  color: rgb(59, 56, 56);
+  opacity: 1;
+}
+
+.menu__link:hover {
+  transition:  0.3s linear;
+  opacity: 0.5;
+}

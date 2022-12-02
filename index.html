@@ -1,12 +1,123 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
   <head>
-    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Новости культуры</title>
+    <link rel="stylesheet" href="/index.css"> 
   </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+  <body class="page">
+    <!--Шапка сайта-->
+    <header class="main-header">
+      <h1 class="main-header_visually-hidden">Новости культуры</h1>
+      <img class="logo logo_place_header" src="/img/logo.svg" alt="Логотип сайта">
+      <!-- Главная навигация -->
+      <nav class="menu">
+       <ul class="menu__list">
+        <li class="menu__item"><a class="menu__link" href="#">Новости</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Обзоры</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Музыка</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Архитектура</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Кино</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Театр</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Литература</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Религия</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Живопись</a></li>
+       </ul>
+      </nav>
+    </header>
+
+    <!--Основной раздел-->
+    <main>
+
+    <!-- Главная новость, сенсация -->
+      <section class="headline">
+        <img class="headline__image" src="/img/underwater-hotel.jpg" alt="подводный отель">
+        <h2 class="headline__heading"><a class="headline__link" href="#">Подводный отель</a></h2>
+        <p class="headline__paragraph">Как известно, Дубай – город контрастов. Самые революционные
+          и фантастические мечты архитекторов способен воплотить в жизнь этот мегаполис, построенный на нефти и за счет нефти</p>
+      </section>
+
+    <!-- Обзоры -->
+      <section class="reviews">
+        <h3 class="heading">Обзоры</h3>
+        <ul class="cards">
+          <li class="card">
+            <img class="card__pic" src="/img/monparnasse.jpg" alt="картина с выставки">
+            <a class="card__link" href="#">
+              <h4 class="card__title">«Шальные годы» Монпарнаса</h4>
+            </a>
+            <p class="card__text">В Музее изобразительных искусств имени Пушкина с 29 сентября по 29 ноября проходит выставка «Шальные годы Монпарнаса»</p>
+          </li>
+          <li class="card">
+            <img class="card__pic" src="/img/clay-in-the-hands.jpg" alt="глина в руках">
+            <a class="card__link" href="#">
+              <h4 class="card__title card__title_focus">Анатомия за 30 секунд</h4>
+            </a>
+            <p class="card__text">Сейчас, когда мир открыт нараспашку для человека
+              и его познавательных изысканий, интерес
+              к научно-популярной литературе заметно вырос</p>
+          </li>
+          <li class="card">
+            <img class="card__pic" src="/img/spherical-eccentrics.jpg" alt="сцена из спектакля">
+            <a class="card__link" href="#">
+              <h4 class="card__title">Сферические чудаки</h4>
+            </a>
+            <p class="card__text">Корреспондентам «Культурного обозревателя» посчастливилось побывать в театре «Сфера» на премьере спектакля «Чудаки и зануды»</p>
+          </li>
+        </ul>
+        
+      </section>
+
+    <!--Блок промо-->
+      <section class="promo">
+        <h3 class="heading heading_promo">Абонементы в театр</h3>
+        <ul class="promo__list">
+          <li class="promo__item">
+            <h4 class="promo__title">Скидка 50% на весь сезон 2020</h4>
+            <p class="promo__text">Покупая абонемент на сезон 2020 года вы сэкономите половину стоимости всех спектаклей</p>
+          </li>
+          <li class="promo__item">
+            <h4 class="promo__title">Места у сцены</h4>
+            <p class="promo__text">Только для обладателей абонементов будет возможность сесть поближе к сцене</p>
+          </li>
+          <li class="promo__item">
+            <h4 class="promo__title">Автограф-сессия актёров</h4>
+            <p class="promo__text">После спектаклей у вас будет возможность пообщаться с актёрами и взять у них автограф</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!--Подвал-->
+    <footer class="main-footer">
+      <img class="logo logo_place_footer" src="/img/white-logo.svg" alt="Логотип сайта">
+      <ul class="menu menu__list_place_footer">
+        <li class="menu__item_place_footer"><a class="menu__link_place_footer" href="#">Новости</a></li>
+        <li class="menu__item_place_footer"><a class="menu__link_place_footer" href="#">Обзоры</a></li>
+        <li class="menu__item_place_footer"><a class="menu__link_place_footer" href="#">Музыка</a></li>
+        <li class="menu__item_place_footer"><a class="menu__link_place_footer" href="#">Архитектура</a></li>
+        <li class="menu__item_place_footer"><a class="menu__link_place_footer" href="#">Кино</a></li>
+        <li class="menu__item_place_footer"><a class="menu__link_place_footer" href="#">Театр</a></li>
+        <li class="menu__item_place_footer"><a class="menu__link_place_footer" href="#">Литература</a></li>
+        <li class="menu__item_place_footer"><a class="menu__link_place_footer" href="#">Религия</a></li>
+        <li class="menu__item_place_footer"><a class="menu__link_place_footer" href="#">Живопись</a></li>
+      </ul>
+      <ul class="social-links">
+        <li class="social-links__link">
+          <a href="#" class="social-links__pic">
+            <img class="social-links__pic" src="/img/instagram_icon.svg" alt="instagram">
+          </a>
+        </li>
+        <li class="social-links__link">
+          <a href="#" class="social-links__pic"><img class="social-links__pic" src="/img/facebook_icon.svg" alt="facebook"></a>
+        </li>
+        <li class="social-links__link">
+          <a href="#" class="social-links__pic"><img class="social-links__pic" src="/img/twitter_icon.svg" alt="twitter"></a>
+        </li>
+      </ul>
+
+    </footer>
   </body>
 
 </html>

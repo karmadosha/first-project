@@ -1,0 +1,12 @@
+.headline__paragraph {
+  width: 450px;
+  color: rgb(202, 197, 197);
+  position: absolute;
+  top: 55%;  
+  align-self: center;
+  z-index: 1;
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+}

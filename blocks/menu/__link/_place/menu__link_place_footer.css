@@ -1,0 +1,10 @@
+.menu__link_place_footer {
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+}
+
+.menu__link_place_footer:hover {
+  transition:  0.3s linear;
+  opacity: 0.5;
+}

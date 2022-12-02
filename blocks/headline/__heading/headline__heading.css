@@ -1,0 +1,16 @@
+.headline__heading {
+  color: white;
+  position: absolute;
+  top: 35%;  
+  align-self: center;
+  z-index: 1;
+  line-height: 1.5;
+  font-size: 65px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  margin: 0;
+  padding: 0;
+  width: 800px;
+
+}
